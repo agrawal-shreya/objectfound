@@ -1,0 +1,32 @@
+body{
+    background-size: cover;
+}
+.heading{
+    width: 100%;  
+     margin-bottom: 10px;
+ 
+}
+.b{
+    margin-bottom: 10px;
+}
+canvas{
+    border: 2px solid white;
+    border-radius: 20%;
+    box-shadow: 5px 5px 18px red;
+    margin-top: 100px;
+}
+label{
+    color: salmon;
+}
+#ob_name{
+    background-color: transparent;
+    border: 2px solid salmon;
+}
+.ff{
+bottom: 0;
+position: fixed;
+width: 100%;
+background-color: silver;
+color: black;
+text-align: center;
+}

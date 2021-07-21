@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Video</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body background="https://i.pcmag.com/imagery/articles/03OXf6rgDz6NmFXeqBN4425-41.fit_scale.size_1028x578.v1569484520.jpg">
+        <center>
+        <div class="btn btn-warning heading">
+            AI Object Finder <br>
+            The input name which you will enter should match the name present in coco model then oly it will detect
+        </div>
+        <label >Object name: </label>
+        <input type="text"  id="ob_name">
+        <br>
+        <button class="btn btn-success b" onclick="start()">Start</button>
+        <br>
+        <h3 class="btn btn-warning b" id="found_object"></h3>
+        <br>
+        <h3 class="btn btn-danger b" id="status"></h3>
+        <br>
+    </center>
+    
+    <div class="ff">DEVELOPED BY- Shreya Agrawal</div>
+        <script src="main.js"></script>
+    </body>
+</html>
